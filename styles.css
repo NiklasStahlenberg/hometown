@@ -1,0 +1,123 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#hero {
+    background-image: url("https://farawayadventures.com/wp-content/uploads/2023/02/NYA-vandra-i-Dalarna-1.jpeg.webp");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    border-radius: 25px 25px 0 0;    
+}
+
+.hero-text {    
+    margin: 6px 0;
+    width: 400px;
+    padding: 0;
+    color: #ffffff;
+}
+
+#hero-heading {
+    background: #457B9D;
+}
+
+#hero-subheading {
+    background: #1D3557;
+}
+
+img {
+    width: 100px;
+}
+
+#main-container {
+    width: 800px;
+    margin: 0 auto 0 auto;
+    border-radius: 25px;
+    border: 2px solid whitesmoke;
+}
+
+#activities {
+    background: #F1FAEE;
+    margin-top: 0;    
+}
+
+#activities-heading {
+    margin: 0;
+    padding: 20px 0 20px 0;
+    color: #1D3557;
+}
+
+#activities-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.activities-img {
+    border-radius: 50%;
+    height: 100px;
+    align-self: center;
+    justify-self: center;
+}
+
+.activities-img:hover {
+    width: 150px;
+    height: 150px;
+}
+
+.activity {
+    width: 200px;
+    padding: 15px 0 15px 0;
+    height: 200px;
+    padding-bottom: 50px;
+}
+
+.activity h4 {
+    color: #1D3557;
+}
+
+.activity p {
+    color: #457B9D;
+}
+
+#guide {
+    display: flex;
+    width: 400px;
+    margin: 50px auto 50px auto;
+    border: 2px solid #1D3557;
+    padding: 25px;
+    background: #457B9D;
+    color: #F1FAEE;
+    border-bottom: 8px solid #1D3557;
+    border-left: 8px solid #1D3557;
+    border-radius: 5px;
+}
+
+#guide-img {
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: none;
+}
